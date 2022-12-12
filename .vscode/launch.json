@@ -5,6 +5,34 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "Launch Modifiers",
+            "request": "launch",
+            "mainClass": "obj.Modifiers",
+            "projectName": "dev_aff19af3"
+        },
+        {
+            "type": "java",
+            "name": "Launch Constructors",
+            "request": "launch",
+            "mainClass": "obj.Constructors",
+            "projectName": "dev_aff19af3"
+        },
+        {
+            "type": "java",
+            "name": "Launch Obj1",
+            "request": "launch",
+            "mainClass": "obj.Obj1",
+            "projectName": "dev_aff19af3"
+        },
+        {
+            "type": "java",
+            "name": "Launch CLass",
+            "request": "launch",
+            "mainClass": "demo.CLass",
+            "projectName": "dev_aff19af3"
+        },
+        {
             "name": "Java",
             "type": "java",
             "request": "launch",
