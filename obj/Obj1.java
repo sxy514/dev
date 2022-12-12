@@ -16,6 +16,7 @@ public class Obj1 {
 
         // 同一个包中的类可以访问
         Modifiers myObj2 = new Modifiers();
+        myObj2.myDefaultMethod();
 
         // 不能直接调用公共方法,需要创建对象
         Obj1 myObj = new Obj1();

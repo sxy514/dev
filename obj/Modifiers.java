@@ -4,7 +4,9 @@ package obj;
 // 到目前 已经非常熟悉public关键字了，它的名字叫做访问修饰符
 // public关键字是一个访问修饰符，这意味着它用于设置类、属性、方法和构造函数的访问级别。
 // 我们把修饰语分为两类:
-// 访问修饰符-控制访问级别
+
+// 访问修饰符-控制访问级别,本示例展示访问修饰符
+
 // 非访问修饰符-不控制访问级别，但提供其他功能
 
 // 对于类，可使用 public 或者 不指定修饰符
@@ -26,18 +28,20 @@ public class Modifiers {
 
     // 默认：当你没有指定修饰符时，代码只能在同一个包中使用
     void myDefaultMethod() {
-        System.out.println("这是未指定修饰符的方法，只能在同一个包中访问");
+        System.out.println("这是在Modifiers类中未指定修饰符的方法,只能在同一个包中访问,");
     }
 
     // protected: 代码可以在相同的包或者子类中访问；
     protected void myProtectedMethod() {
-        System.out.println("这是受保护方法，在相同的包或者子类中访问");
+        System.out.println("这是受保护(protected)方法，在相同的包或者子类中访问");
     }
 
     public static void main(String[] args) {
         myPrivateMethod(); // static 关键字 声明的方法可直接调用
         Modifiers myObj = new Modifiers();
         myObj.myPublicMethod(); // 创建对象后调用 myPublicMethod 方法；
+        myObj.myDefaultMethod();
+        myObj.myProtectedMethod();
 
     }
 }

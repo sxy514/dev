@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "obj.Main",
+            "projectName": "dev_aff19af3"
+        },
+        {
+            "type": "java",
             "name": "Launch Modifiers",
             "request": "launch",
             "mainClass": "obj.Modifiers",
