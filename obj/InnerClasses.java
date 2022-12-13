@@ -33,7 +33,7 @@ public class InnerClasses {
         System.out.println("这是内部类属性 y + 外部类属性 x 的和： " + (myInObj.y + myOutObj.x));
 
         // 内部类的对象可以访问外部类的属性，这里返回外部类的属性 x：1
-        System.out.println(myInObj.myInnerMethod());
+        System.out.println("内部类可以访问外部类的属性 x: " + myInObj.myInnerMethod());
 
         // 当内部类 使用 static 修饰符时，可以直接创建内部类的对象
         // 访问内部类时候使用点： 外部类名 . 内部类名 即可
