@@ -43,5 +43,6 @@ public class Modifiers {
         myObj.myDefaultMethod();
         myObj.myProtectedMethod();
 
+        
     }
 }

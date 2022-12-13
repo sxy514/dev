@@ -6,5 +6,5 @@ package obj;
 // 
 
 public class Modifiers3 {
-    
+    final int x = 11;
 }
