@@ -6,6 +6,10 @@ class MyOutClass {
     class MyInnerClass { // 如果不希望访问内部类 使用 private 修饰符声明为 私有内部类
         int y = 2;
 
+        // 内部类的一个优点是它们可以访问外部类的属性和方法
+        public int myInnerMethod() {
+            return x;
+        }
     }
 
     static class MyInnerClass2 { // 使用 static 修饰符可以 让内部类直接创建内部类对象
@@ -27,6 +31,9 @@ public class InnerClasses {
 
         MyOutClass.MyInnerClass myInObj = myOutObj.new MyInnerClass();
         System.out.println("这是内部类属性 y + 外部类属性 x 的和： " + (myInObj.y + myOutObj.x));
+
+        // 内部类的对象可以访问外部类的属性，这里返回外部类的属性 x：1
+        System.out.println(myInObj.myInnerMethod());
 
         // 当内部类 使用 static 修饰符时，可以直接创建内部类的对象
         // 访问内部类时候使用点： 外部类名 . 内部类名 即可
