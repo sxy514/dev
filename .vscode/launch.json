@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Abstract",
+            "request": "launch",
+            "mainClass": "obj.Abstract",
+            "projectName": "dev_aff19af3"
+        },
+        {
+            "type": "java",
             "name": "Launch InnerClasses",
             "request": "launch",
             "mainClass": "obj.InnerClasses",

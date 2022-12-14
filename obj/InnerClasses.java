@@ -12,7 +12,7 @@ class MyOutClass {
         }
     }
 
-    static class MyInnerClass2 { // 使用 static 修饰符可以 让内部类直接创建内部类对象
+    static class MyInnerClass2 { // 使用 static 修饰符可以 可以使内部类直接创建类对象
         int z = 5;
     }
 
