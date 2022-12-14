@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch InnerClass",
+            "request": "launch",
+            "mainClass": "obj.InnerClass",
+            "projectName": "dev_aff19af3"
+        },
+        {
+            "type": "java",
+            "name": "Launch Polymorphism",
+            "request": "launch",
+            "mainClass": "obj.Polymorphism",
+            "projectName": "dev_aff19af3"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExPoly1",
+            "request": "launch",
+            "mainClass": "obj.ExPoly1",
+            "projectName": "dev_aff19af3"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExPoly",
+            "request": "launch",
+            "mainClass": "obj.ExPoly",
+            "projectName": "dev_aff19af3"
+        },
+        {
+            "type": "java",
             "name": "Launch SubClass",
             "request": "launch",
             "mainClass": "obj.SubClass",
