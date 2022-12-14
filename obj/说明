@@ -53,3 +53,18 @@ Encapsulation.java 是 封装 的示例：
 封装的意义，是确保对用户隐藏“敏感”数据。要做到这一点，你必须:
 将类变量/属性声明为私有,提供公共get和set方法来访问和更新私有变量的值
 两者的语法都是以get或set开头,后面跟着变量名首字母大写:
+在编写 公共set 方法时 需注意该语句的写法 , 在写 公共get 时该方法 return 需要获取的变量
+
+
+PackageAPI.java 是导入 包/API 的示例
+在Java中的包用于将相关的类进行分组,将其视为在一个文件夹
+我们使用包来避免名称冲突，并编写更好的可维护代码
+包分为两类:
+// 内置包(来自Java API的包): 使用 API 用关键字 import
+Java API是一个预先编写的类库,可以免费使用,包含在Java开发环境中。
+该库包含用于管理输入、数据库编程等的组件。完整的列表可以在oracle网站上找到:https://docs.oracle.com/javase/8/docs/api/。
+库分为包和类。这意味着您可以导入单个类(及其方法和属性)，也可以导入包含属于指定包的所有类的整个包。
+导入单个类: import package.name.Class;   
+导入整个包: import package.name.*;   
+// 用户定义的包(创建自己的包): 使用 自定义包 用关键字 package
+导入自定义包: package 文件路径；； 例如 package obj;

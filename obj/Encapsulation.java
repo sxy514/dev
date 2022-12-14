@@ -25,7 +25,7 @@ public class Encapsulation {
         // 创建一个 示例类 的对象
         Example myObj = new Example();
         // 创建一个对象后 可以调用 setName 方法 对封装变量 name 进行修改
-        myObj.setName("null");
+        myObj.setName("Setnull");
         // 再调用 getName 方法 获取 name
         System.out.println(myObj.getName());
 

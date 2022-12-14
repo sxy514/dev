@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch PackageAPI",
+            "request": "launch",
+            "mainClass": "obj.PackageAPI",
+            "projectName": "dev_aff19af3"
+        },
+        {
+            "type": "java",
             "name": "Launch Encapsulation",
             "request": "launch",
             "mainClass": "obj.Encapsulation",
