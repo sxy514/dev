@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Enums",
+            "request": "launch",
+            "mainClass": "obj.Enums",
+            "projectName": "dev_aff19af3"
+        },
+        {
+            "type": "java",
+            "name": "Launch IInterface",
+            "request": "launch",
+            "mainClass": "obj.IInterface",
+            "projectName": "dev_aff19af3"
+        },
+        {
+            "type": "java",
+            "name": "Launch Interface",
+            "request": "launch",
+            "mainClass": "demo.Interface",
+            "projectName": "dev_aff19af3"
+        },
+        {
+            "type": "java",
+            "name": "Launch Interface",
+            "request": "launch",
+            "mainClass": "obj.Interface",
+            "projectName": "dev_aff19af3"
+        },
+        {
+            "type": "java",
+            "name": "Launch Interface1",
+            "request": "launch",
+            "mainClass": "obj.Interface1",
+            "projectName": "dev_aff19af3"
+        },
+        {
+            "type": "java",
             "name": "Launch Constructors",
             "request": "launch",
             "mainClass": "Constructors",

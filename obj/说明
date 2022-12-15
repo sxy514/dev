@@ -89,8 +89,21 @@ InnerClass.java 是 内部类 的示例
 // 外部类名.内部类名 对象名 = 外部对象名.new 内部对象名();
 
 
-Interface.java 是 接口(Interface) 的示例
-在Java中实现 抽象的另一种方法是 使用接口
-使用 interface 关键字 是一个完全的“抽象类”，由 interface 声明的类，它的类方法不包含 body, 类方法的主体由 implemented 类中提供
-要访问 interface 类方法，必须使用 implemented 来实现 interface
-(就像是继承使用 extends 那样, interface 需要 implemented 来实现)
+IInterface.java 是 接口(Interface) 的示例
+在Java中实现 抽象的另一种方法是 使用 接口(interface)
+使用 interface 关键字 是一个完全的“抽象类”，由 interface 声明的类，它的类方法不包含 body, 类方法的主体由 implementes 类中提供
+要访问 interface 类方法，必须使用 implementes 来实现 interface类 .接口不能直接创建对象，与继承概念相似，需实现后才能调用接口方法
+(就像是继承使用 extends 那样, interface 需要 implementes 来实现)
+// 接口关键字 interface 和 implements 实现
+// 在Java中不能多重继承,一个子类只能继承一个父类，而接口则可以多个实现,使用逗号分隔符
+// 请注意不能在同一个Package里有多个class 里拥有同样名字的类，容易编译报错
+
+
+Enums.java 是 枚举 的示例
+枚举是一个特殊的“类”，它代表一组常量(不可改变的变量,比如final变量)。
+要创建枚举,请使用enum关键字,并使用逗号分隔常量。注意，它们应该是大写字母:
+// 使用 . 访问枚举中的常量
+// 注意是如何访问枚举类中的常量的
+// Level myVar = Level.MEDIUM;语法为 枚举名 变量名 = 枚举名.常量名
+// 循环遍历枚举，枚举类型有一个方法 .values() 专门用于遍历enum
+// 语法为： for(枚举名 变量名 : 枚举名.values()) { 输出该变量 } 
