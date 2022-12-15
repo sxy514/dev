@@ -83,7 +83,14 @@ Polymorphism.java 是 多态 的示例
 一个父类可以被多个子类继承
 
 
-InnerClass.java 时 内部类 的示例
+InnerClass.java 是 内部类 的示例
 在Java中，也可以嵌套类(类中类)。嵌套类的目的是将属于一起的类分组，从而使代码更具可读性和可维护性。
 要访问内部类，创建一个外部类的对象，然后创建一个内部类的对象:
 // 外部类名.内部类名 对象名 = 外部对象名.new 内部对象名();
+
+
+Interface.java 是 接口(Interface) 的示例
+在Java中实现 抽象的另一种方法是 使用接口
+使用 interface 关键字 是一个完全的“抽象类”，由 interface 声明的类，它的类方法不包含 body, 类方法的主体由 implemented 类中提供
+要访问 interface 类方法，必须使用 implemented 来实现 interface
+(就像是继承使用 extends 那样, interface 需要 implemented 来实现)

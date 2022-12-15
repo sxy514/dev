@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Constructors",
+            "request": "launch",
+            "mainClass": "Constructors",
+            "projectName": "dev_aff19af3"
+        },
+        {
+            "type": "java",
             "name": "Launch InnerClass",
             "request": "launch",
             "mainClass": "obj.InnerClass",
