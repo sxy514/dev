@@ -6,10 +6,18 @@ import java.util.Scanner;
 public class jscanner {
     public static void main(String[] args) {
         // 导入Scanner类后创建它的对象
-        Scanner myObj = new Scanner(System.in); // 在 new 时 添加参数 System,in
+        Scanner myObj = new Scanner(System.in);
         System.out.println("请输入信息：");
 
-        String text = myObj.nextLine(); // 调用 Scanner 对象的 方法 nextLine 接收输入
+        // 调用 Scanner 对象的 方法 nextLine 接收字符串输入
+        String text = myObj.nextLine(); // 方法 .next 可以接收其他数据类型
+        // 例如： myObj.nextBoolean() 接收布尔类型 myObj.nextInt() 接收整型类型
         System.out.println("这是你输入的信息:\n" + text);
+
+        int age = myObj.nextInt(); // 接收用户输入的整型变量
+        double salary = myObj.nextDouble(); // 接收用户输入的double类型变量 ，若用户输入的类型不匹配将会抛异常
+        System.out.println("Age: " + age);
+        System.out.println("Salary: " + salary);
+
     }
 }

@@ -113,3 +113,12 @@ Enums.java 是 枚举 的示例
 
 jscanner.java 是 用户输入 的示例
 导入类 java.util.Scanner 该类用于获取用户输入
+Scanner myObj = new Scanner(System.in) 创建对象的写法 需要 new Scanner(System.in)
+创建对象后调用方法 .nextLine() 可接收用户输入的字符串 , 要接收其他类型 把Line替换掉, 如 int a =  myObj.nextInt();
+
+DateTime.java 是 日期和时间 的示例
+Java 没有内置的 Date 类，但我们可以导入包以使用日期和时间 API。该软件包包括许多日期和时间类
+DateTimeFormatter: 用于设置日期和时间的格式
+LocalDate: 表示日期(年、月、日(yyyy-MM-dd))
+LocalTime: 表示时间(小时，分钟，秒和纳秒)
+LocalDateTime: 同时表示日期和时间(yyyy-MM-dd-HH-mm-ss-ns)
