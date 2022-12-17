@@ -142,6 +142,13 @@ LinkedList(链表) 与 ArrayList 类似 是一种常用的数据容器
 需要频繁的在列表开头、中间、末尾等位置进行添加和删除元素操作。
 
 
-HashMap.java 是 哈希map 的示例
+HashMap1.java 是 哈希map 的示例
+使用前需要引入它： java.util.HashMap;
  HashMap 是一个散列表，它存储的内容是 键值对(key-value)映射。是无序的，即不会记录插入的顺序。
  HashMap 的 key 与 value 类型可以相同也可以不同，可以是字符串(String)类型的 key 和 value,也可以是整型(Integer)的 key 和字符串(String)类型的 value。
+// 语法为： HashMap<Key的类型,value的类型> 对象名 = new HashMap<Key的类型,value的类型>; // Key和Value的类型 请使用包装类
+
+
+HashSet1.java 是 HashSet 的示例
+HashSet 基于 HashMap 来实现，是不允许有重复元素的集合, HashSet 类位于 java.util 包中，使用前需要引入它，语法格式如下：
+语法格式为: import java.util.HashSet; // 引入 HashSet 类
