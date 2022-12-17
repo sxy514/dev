@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch TryCatch1",
+            "request": "launch",
+            "mainClass": "obj.TryCatch1",
+            "projectName": "dev_aff19af3"
+        },
+        {
+            "type": "java",
             "name": "Launch WrapperClasses1",
             "request": "launch",
             "mainClass": "obj.WrapperClasses1",

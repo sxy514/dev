@@ -171,3 +171,11 @@ ArrayList<int> myNumbers = new ArrayList<int>(); // 无效
 ArrayList<Integer> myNumbers = new ArrayList<Integer>(); // 有效
 原始数据类型的包装类如下：
 byte = Byte ; short = Short ; int = Integer ; long = Long ; float = Float ; double = Double ; boolean = Boolean ; char = Character;
+
+
+TryCatch1.java 是 异常捕获 的示例
+执行Java代码时,可能会出现不同的错误：程序员的编码错误，由于输入错误而导致的错误， 或其他不可预见的事情。
+当发生错误时,Java 通常会停止并生成错误消息。这方面的技术术语是:Java将抛出异常(抛出错误)。
+我们使用 try_catch 来捕获异常并处理
+
+
