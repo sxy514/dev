@@ -166,16 +166,38 @@ Iterator1.java 是 迭代器 的示例：
 
 
 WrapperClasses1.java 是 包装类 的示例
-有时必须使用包装类，例如在使用集合对象时，例如创建 ArrayList 其中不能使用基元数据类型，而是使用包装类型：
-ArrayList<int> myNumbers = new ArrayList<int>(); // 无效
-ArrayList<Integer> myNumbers = new ArrayList<Integer>(); // 有效
-原始数据类型的包装类如下：
+ 有时必须使用包装类，例如在使用集合对象时，例如创建 ArrayList 其中不能使用基元数据类型，而是使用包装类型：
+ ArrayList<int> myNumbers = new ArrayList<int>(); // 无效
+ ArrayList<Integer> myNumbers = new ArrayList<Integer>(); // 有效
+ 原始数据类型的包装类如下：
 byte = Byte ; short = Short ; int = Integer ; long = Long ; float = Float ; double = Double ; boolean = Boolean ; char = Character;
 
 
 TryCatch1.java 是 异常捕获 的示例
-执行Java代码时,可能会出现不同的错误：程序员的编码错误，由于输入错误而导致的错误， 或其他不可预见的事情。
-当发生错误时,Java 通常会停止并生成错误消息。这方面的技术术语是:Java将抛出异常(抛出错误)。
-我们使用 try_catch 来捕获异常并处理
+ 执行Java代码时,可能会出现不同的错误：程序员的编码错误，由于输入错误而导致的错误， 或其他不可预见的事情。
+ 当发生错误时,Java 通常会停止并生成错误消息。这方面的技术术语是:Java将抛出异常(抛出错误)。
+ 我们使用 try_catch 来捕获异常并处理：
+ try {
+     容易抛异常的代码；
+ } catch (Exception e) {
+     抛异常后执行的代码；
+ }
+ 使用 throw 关键字 允许创建自定义错误，与异常类型一起使用，比如 ArithmeticException(算术异常) ; FileNotFoundException 等
+语法为:  throw new ArithmeticException("错误提示语");
 
+
+RegularExpression.java 是 正则表达式 的示例 :  https://www.w3schools.com/java/java_regex.asp
+ 正则表达式是形成搜索模式的字符序列。 在文本中搜索数据时，可以使用此搜索模式来描述您的内容 正在搜索。
+ 正则表达式可以是单个字符，也可以是更复杂的模式。
+ 正则表达式可用于执行所有类型的文本搜索和文本替换操作。
+ Pattern类 - 定义模式（在搜索中使用）
+ Matcher类 - 用于搜索 模式
+PatternSyntaxException类 - 指示常规中的语法错误 表达模式
+
+
+Threads1.java 是 线程 的示例：
+ 线程允许程序通过同时执行多项操作来更有效地运行 时间。
+ 线程可用于在后台执行复杂的任务，而不会中断 主程序。
+ 有两种方法可以创建线程: 可以通过扩展类并重写其方法来创建它: Threadrun(); 创建线程的另一种方法是实现接口(interface): Runnable
+ 
 
