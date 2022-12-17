@@ -124,7 +124,7 @@ DateTime.java 是 日期和时间 的示例
 LocalDateTime: 同时表示日期和时间(yyyy-MM-dd-HH-mm-ss-ns)
 
 
-ArrayList1.java 是 一个可动态修改的数组列表  示例
+ArrayList1.java 是 一个可动态修改的集合列表  示例
  该类是一个可调整大小的数组，可以在包 java.util.ArrayList 中找到
  和普通数组的区别是它可以随时添加或删除数组元素，语法也不相同， 将元素存储为有序线性集合,通过索引号访问;
  ArrayList 中的元素实际上是对象。在上面的例子中，我们创建了元素 类型为“字符串”的（对象）。
@@ -150,5 +150,24 @@ HashMap1.java 是 哈希map 的示例
 
 
 HashSet1.java 是 HashSet 的示例
-HashSet 基于 HashMap 来实现，是不允许有重复元素的集合, HashSet 类位于 java.util 包中，使用前需要引入它，语法格式如下：
-语法格式为: import java.util.HashSet; // 引入 HashSet 类
+ HashSet 基于 HashMap 来实现，是不允许有重复元素的集合, HashSet 类位于 java.util 包中，使用前需要引入它，语法格式如下：
+ 语法格式为: import java.util.HashSet; // 引入 HashSet 类
+使用方法与HashMap等类似, 都能增，删，改等 , 有判断元素是否存在的方法： 使用 contains() 方法
+
+
+Iterator1.java 是 迭代器 的示例：
+ 迭代器 不是一个集合，它是一种用于访问集合的方法, 可用于迭代 ArrayList 和 HashSet等集合
+ 它被称为“迭代器”，因为“迭代”是循环的技术术语；
+ // import java.util.Iterator; 导入迭代器
+ 迭代器 it 的两个基本操作是 next 、hasNext 和 remove。
+ 调用 .next() 会返回迭代器的下一个元素，并且更新迭代器的状态。
+ 调用 .hasNext() 用于检测集合中是否还有元素。
+调用 .remove() 将迭代器返回的元素删除。
+
+
+WrapperClasses1.java 是 包装类 的示例
+有时必须使用包装类，例如在使用集合对象时，例如创建 ArrayList 其中不能使用基元数据类型，而是使用包装类型：
+ArrayList<int> myNumbers = new ArrayList<int>(); // 无效
+ArrayList<Integer> myNumbers = new ArrayList<Integer>(); // 有效
+原始数据类型的包装类如下：
+byte = Byte ; short = Short ; int = Integer ; long = Long ; float = Float ; double = Double ; boolean = Boolean ; char = Character;

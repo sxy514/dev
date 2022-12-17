@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch WrapperClasses1",
+            "request": "launch",
+            "mainClass": "obj.WrapperClasses1",
+            "projectName": "dev_aff19af3"
+        },
+        {
+            "type": "java",
+            "name": "Launch Iterator1",
+            "request": "launch",
+            "mainClass": "obj.Iterator1",
+            "projectName": "dev_aff19af3"
+        },
+        {
+            "type": "java",
             "name": "Launch HashSet1",
             "request": "launch",
             "mainClass": "obj.HashSet1",
