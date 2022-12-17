@@ -30,7 +30,6 @@ public class HashMap1 {
         // 我们可以使用 remove(key) 方法来删除 key 对应的键值对(key-value):
         Sites.remove(1); // 删除 Sites 中的键值对 1
         System.out.println(Sites);
-        
 
         // 删除所有键值对(key-value)可以使用 clear 方法：
         // Sites.clear();
@@ -47,8 +46,12 @@ public class HashMap1 {
         }
         // 返回所有 value 值
         for (String value : Sites.values()) {
-            // 输出每一个value
+            // 输出只输出 value
             System.out.print(value + "\n");
+        }
+            // 只输出 key
+        for (Integer i : Sites.keySet()) {
+            System.out.println(i);
         }
     }
 
