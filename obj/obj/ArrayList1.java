@@ -1,7 +1,9 @@
 package obj;
 
-//导入包 java.util.ArrayList 用于创建数组表
+// 导入包 java.util.ArrayList 用于创建数组表
 import java.util.ArrayList;
+
+// Collections 类用于 给数组元素 排列顺序
 import java.util.Collections; // Import the Collections class
 
 // 本示例展示数组列表的使用方法
@@ -48,12 +50,12 @@ public class ArrayList1 {
         // 创建一个数组列表来存储数字(添加类型为Integer的元素)
         ArrayList<Integer> myNumbers = new ArrayList<Integer>();
         myNumbers.add(10);
-        myNumbers.add(25) ;
+        myNumbers.add(25);
         myNumbers.add(20);
         myNumbers.add(8);
         myNumbers.add(12);
 
-        Collections.sort(myNumbers); // Sort myNumbers
+        Collections.sort(myNumbers); // Sort myNumbers 排列 数组元素的顺序
         for (int i : myNumbers) {
             System.out.println(i);
         }
