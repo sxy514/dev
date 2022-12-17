@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ArrayList1",
+            "request": "launch",
+            "mainClass": "obj.ArrayList1",
+            "projectName": "dev_aff19af3"
+        },
+        {
+            "type": "java",
             "name": "Launch DateTime",
             "request": "launch",
             "mainClass": "obj.DateTime",

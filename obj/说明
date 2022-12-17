@@ -126,3 +126,6 @@ LocalDateTime: 同时表示日期和时间(yyyy-MM-dd-HH-mm-ss-ns)
 ArrayList1.java 是 数组列表 的示例
  该类是一个可调整大小的数组，可以在包 java.util.ArrayList 中找到
  和普通数组的区别是它可以随时添加或删除数组元素，语法也不相同
+
+ 
+ LinkedList 与 ArrayList 类似

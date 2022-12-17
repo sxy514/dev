@@ -2,6 +2,7 @@ package obj;
 
 //导入包 java.util.ArrayList 用于创建数组表
 import java.util.ArrayList;
+import java.util.Collections; // Import the Collections class
 
 // 本示例展示数组列表的使用方法
 public class ArrayList1 {
@@ -41,6 +42,19 @@ public class ArrayList1 {
 
         // 还可以循环使用 for-each 循环：ArrayList
         for (String i : cars) {
+            System.out.println(i);
+        }
+
+        // 创建一个数组列表来存储数字(添加类型为Integer的元素)
+        ArrayList<Integer> myNumbers = new ArrayList<Integer>();
+        myNumbers.add(10);
+        myNumbers.add(25) ;
+        myNumbers.add(20);
+        myNumbers.add(8);
+        myNumbers.add(12);
+
+        Collections.sort(myNumbers); // Sort myNumbers
+        for (int i : myNumbers) {
             System.out.println(i);
         }
 
