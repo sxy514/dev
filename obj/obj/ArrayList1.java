@@ -11,7 +11,7 @@ public class ArrayList1 {
     public static void main(String[] args) {
 
         // 创建数组列表的语法如下： ArrayList<String> 数组名 = new ArrayList<String>();
-        ArrayList<String> cars = new ArrayList<String>();
+        ArrayList<String> cars = new ArrayList<String>(); // 数组是对象
 
         // 使用 数组名.add(); 添加数组中的元素
         cars.add("沃尔沃");

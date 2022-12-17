@@ -139,7 +139,9 @@ LinkedList(链表) 与 ArrayList 类似 是一种常用的数据容器
  只需要在列表末尾进行添加和删除元素操作。
  以下情况使用 LinkedList :
  你需要通过循环迭代来访问列表中的某些元素。
- 需要频繁的在列表开头、中间、末尾等位置进行添加和删除元素操作。
+需要频繁的在列表开头、中间、末尾等位置进行添加和删除元素操作。
 
- HashMap.java 是 哈希map 的示例
- HashMap 是一个散列表，它存储的内容是键值对(key-value)映射。是无序的，即不会记录插入的顺序。
+
+HashMap.java 是 哈希map 的示例
+ HashMap 是一个散列表，它存储的内容是 键值对(key-value)映射。是无序的，即不会记录插入的顺序。
+ HashMap 的 key 与 value 类型可以相同也可以不同，可以是字符串(String)类型的 key 和 value,也可以是整型(Integer)的 key 和字符串(String)类型的 value。
