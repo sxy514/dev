@@ -111,7 +111,7 @@ Enums.java 是 枚举 的示例
 枚举可以像类一样具有属性和方法。唯一的区别是枚举常量是公共的、静态的和final的(不可更改——不能被重写)。
 
 
-jscanner.java 是 用户输入 的示例
+Jscanner.java 是 用户输入 的示例
  导入类 java.util.Scanner 该类用于获取用户输入
  Scanner myObj = new Scanner(System.in) 创建对象的写法 需要 new Scanner(System.in)
 创建对象后调用方法 .nextLine() 可接收用户输入的字符串 , 要接收其他类型 把Line替换掉, 如 int a =  myObj.nextInt();
@@ -199,8 +199,13 @@ Threads22.java 是 线程 的示例：
  线程允许程序通过 同时执行多项操作 来更有效地运时间。
  线程可用于在后台执行复杂的任务，而不会中断 主程序。
  有两种方法可以创建线程: 
- 1.可以通过继承类并重写其方法来创建它: Thread run(); 
+ 1.可以通过继承 Thread 类并重写其 run() 方法来创建它;
  2.创建线程的另一种方法是 implements 接口(interface): Runnable
-
+ 当线程和主程序正在读取 并写入相同的变量，这些值是不可预测的。由此产生的问题 由此称为并发问题。
+ 为了避免并发性问题，最好在线程之间共享尽可能少的属性。如果需要共享属性，一种可能的解决方案是在使用线程可以更改的任何属性之前，
+使用线程的方法 isAlive()来检查线程是否已经完成运行。
  
 
+Lambda1.java 是 Lambda 表达式 的示例
+ Lambda 表达式是在 Java 8 中添加的。
+ lambda表达式是一个短代码块,它接受参数并返回一个值。Lambda表达式类似于方法,但它们不需要名称,并且可以在方法体中实现

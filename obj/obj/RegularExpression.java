@@ -10,7 +10,7 @@ public class RegularExpression {
 
     public static void main(String[] args) {
 
-        // 注意用法
+        // 注意用法，当匹配到 名字 后 输出 match found
         Pattern pattern = Pattern.compile("sixieyou", Pattern.CASE_INSENSITIVE);
         Matcher matcher = pattern.matcher("my name is sixieyou");
         boolean matchFound = matcher.find();

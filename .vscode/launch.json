@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Lambda1",
+            "request": "launch",
+            "mainClass": "obj.Lambda1",
+            "projectName": "dev_aff19af3"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main2",
+            "request": "launch",
+            "mainClass": "obj.Main2",
+            "projectName": "dev_aff19af3"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main1",
+            "request": "launch",
+            "mainClass": "obj.Main1",
+            "projectName": "dev_aff19af3"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestThread",
+            "request": "launch",
+            "mainClass": "obj.TestThread",
+            "projectName": "dev_aff19af3"
+        },
+        {
+            "type": "java",
             "name": "Launch Thread22",
             "request": "launch",
             "mainClass": "obj.Thread22",

@@ -3,7 +3,7 @@ package obj;
 import java.util.Scanner;
 
 // 本示例展示导入Scanner类来获取用户输入 
-public class jscanner {
+public class Jscanner {
     public static void main(String[] args) {
         try (// 导入Scanner类后创建它的对象
         Scanner myObj = new Scanner(System.in)) {
