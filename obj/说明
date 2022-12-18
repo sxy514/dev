@@ -195,9 +195,12 @@ RegularExpression.java 是 正则表达式 的示例 :  https://www.w3schools.co
 PatternSyntaxException类 - 指示常规中的语法错误 表达模式
 
 
-Threads1.java 是 线程 的示例：
- 线程允许程序通过同时执行多项操作来更有效地运行 时间。
+Threads22.java 是 线程 的示例：
+ 线程允许程序通过 同时执行多项操作 来更有效地运时间。
  线程可用于在后台执行复杂的任务，而不会中断 主程序。
- 有两种方法可以创建线程: 可以通过扩展类并重写其方法来创建它: Threadrun(); 创建线程的另一种方法是实现接口(interface): Runnable
+ 有两种方法可以创建线程: 
+ 1.可以通过继承类并重写其方法来创建它: Thread run(); 
+ 2.创建线程的另一种方法是 implements 接口(interface): Runnable
+
  
 

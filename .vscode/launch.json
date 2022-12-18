@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Thread22",
+            "request": "launch",
+            "mainClass": "obj.Thread22",
+            "projectName": "dev_aff19af3"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main222",
+            "request": "launch",
+            "mainClass": "obj.Main222",
+            "projectName": "dev_aff19af3"
+        },
+        {
+            "type": "java",
             "name": "Launch RegularExpression",
             "request": "launch",
             "mainClass": "obj.RegularExpression",
