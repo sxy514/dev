@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch DeleteFile",
+            "request": "launch",
+            "mainClass": "obj.DeleteFile",
+            "projectName": "dev_aff19af3"
+        },
+        {
+            "type": "java",
+            "name": "Launch GetFileInfo",
+            "request": "launch",
+            "mainClass": "obj.GetFileInfo",
+            "projectName": "dev_aff19af3"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReadFile",
+            "request": "launch",
+            "mainClass": "obj.ReadFile",
+            "projectName": "dev_aff19af3"
+        },
+        {
+            "type": "java",
+            "name": "Launch WriteToFile",
+            "request": "launch",
+            "mainClass": "obj.WriteToFile",
+            "projectName": "dev_aff19af3"
+        },
+        {
+            "type": "java",
+            "name": "Launch File1",
+            "request": "launch",
+            "mainClass": "obj.File1",
+            "projectName": "dev_aff19af3"
+        },
+        {
+            "type": "java",
+            "name": "Launch Lambda3",
+            "request": "launch",
+            "mainClass": "obj.Lambda3",
+            "projectName": "dev_aff19af3"
+        },
+        {
+            "type": "java",
+            "name": "Launch Lambda2",
+            "request": "launch",
+            "mainClass": "obj.Lambda2",
+            "projectName": "dev_aff19af3"
+        },
+        {
+            "type": "java",
             "name": "Launch Lambda1",
             "request": "launch",
             "mainClass": "obj.Lambda1",

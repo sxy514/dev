@@ -209,3 +209,18 @@ Threads22.java 是 线程 的示例：
 Lambda1.java 是 Lambda 表达式 的示例
  Lambda 表达式是在 Java 8 中添加的。
  lambda表达式是一个短代码块,它接受参数并返回一个值。Lambda表达式类似于方法,但它们不需要名称,并且可以在方法体中实现
+ 最简单的lambda表达式包含一个参数和一个表达式:  parameter -> expression;
+ 要使用多个参数，请将它们用圆括号括起来: (parameter1, parameter2) -> expression;
+ 为了执行更复杂的操作,代码块可以与花括号一起使用。如果lambda表达式需要返回一个值,那么代码块应该有一个语句:  (parameter1, parameter2) -> { code block };
+要在方法中使用lambda表达式,方法应该有一个参数,其类型为单一方法接口。调用接口的方法将运行lambda表达式, 查看示例
+
+
+File1.java 是 文件处理 的示例：
+ 文件处理是任何应用程序的重要组成部分，如 创建，读取，更新和删除文件，导入 java.io.File 进行文件处理
+ //导入 java.io.File 可进行文件处理，该类有许多用于创建和获取信息的有用方法
+import java.io.File;
+import java.io.FileWriter; //导入 文件写入类
+import java.io.IOException; // 导入IOException类来处理错误
+import java.io.FileNotFoundException; // 导入这个类来处理错误
+import java.util.Scanner; // 导入Scanner类来读取文本
+具体内容查看示例文件.
